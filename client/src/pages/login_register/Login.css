@@ -1,0 +1,151 @@
+.login {
+    position: relative;
+    width: 100%;
+    top: 12vh;
+}
+
+.loginHeader {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #23242a;
+}
+
+.checkboxArea {
+    background-color: #23242a;
+    margin-bottom: 10px;
+}
+
+.check_box_inpt_area {
+    gap: 10px;
+}
+
+.check_box {
+    height: 20px;
+    width: 20px;
+}
+
+.check_box_inpt_area h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.clientlogin {
+    position: relative;
+    width: 380px;
+    height: 80vh;
+    margin: auto;
+    background: #000000cb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.clientlogin::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 80vh;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, yellow, yellow);
+    animation: animate 6s linear infinite;
+}
+
+.clientlogin::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 80vh;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, yellow, yellow);
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.clientInputArea {
+    position: absolute;
+    inset: 2px;
+    border-radius: 10px;
+    background: #23242a;
+    z-index: 10;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.shopOwnerlogin {
+    position: relative;
+    width: 380px;
+    height: 80vh;
+    margin: auto;
+    background: #000000cb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.shopOwnerlogin::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 80vh;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, yellow, yellow);
+    animation: animate 6s linear infinite;
+}
+
+.shopOwnerlogin::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 80vh;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, yellow, yellow);
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.shopOwnerInputArea {
+    position: absolute;
+    inset: 2px;
+    border-radius: 10px;
+    background: #23242a;
+    z-index: 10;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,20 @@
+
+
+.secondPage {
+    position: relative;
+    z-index: 10;
+    top: 12vh;
+}
+
+/* =============== =============== BoxArea =============== =============== */
+
+.SecondPageBoxArea {
+    height: auto;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}

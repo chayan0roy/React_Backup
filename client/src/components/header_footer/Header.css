@@ -1,0 +1,48 @@
+.header {
+    height: 12vh;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    padding: 0 5%;
+    background-color: #383838;
+}
+
+.headerLogoArea {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.headerLinkArea {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headerLinkArea .link {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.headerLinkArea .navLink {
+    height: 6vh;
+    width: 6vh;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.headerLinkArea .navLink img {
+    height: 60%;
+    width: 60%;
+}
+
+.headerLinkArea .navLink img.profileImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.headerLinkArea .navLink:hover {
+    background-color: orange;
+}

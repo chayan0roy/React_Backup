@@ -1,0 +1,20 @@
+.shopCreate {
+    position: relative;
+    width: 100%;
+    top: 12vh;
+    height: 88vh;
+}
+
+.select_box {
+    width: 300px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.select_box:focus {
+    border: none;
+    outline: none;
+}
+

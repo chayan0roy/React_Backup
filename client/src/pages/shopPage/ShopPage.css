@@ -1,0 +1,95 @@
+.ShopPage {
+    position: relative;
+    width: 100%;
+    top: 12vh;
+}
+
+.accontDetailsTop {
+    width: 100%;
+    height: 50vh;
+    background-color: #23242a;
+    border-bottom: 2px solid yellow;
+}
+
+.accontDetailsTop .imageArea {
+    width: 30%;
+    height: 100%;
+}
+
+.accontDetailsTop .imageArea img {
+    border-radius: 50%;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.accontDetailsTop .textArea {
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.accontDetailsTop .textArea h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+.accontDetailsTop .textArea h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+.accontDetailsTop .textArea h4 {
+    font-size: 2rem;
+    color: #fff;
+}
+.accontDetailsTop .textArea .followingArea {
+    width: 50%;
+}
+
+
+
+
+.accontDetailsBottom {
+    width: 100%;
+    height: auto;
+}
+
+.accontDetailsBottom .topBar {
+    border-bottom: 2px solid yellow;
+    height: 5rem;
+    width: 100%;
+    background-color: #23242a;
+}
+
+.accontDetailsBottom .topBar ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.accontDetailsBottom .topBar li {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    font-weight: bold;
+    padding: 0 20px;  
+    margin: 0 10px;
+    color: #fff; 
+}
+
+.accontDetailsBottom .topBar li:hover {
+    background-color: orange;
+    color: #000; 
+}
+
+.topBar1 {
+    gap: 50px;
+}
+
+.topBarBtn {
+    font-size: 2rem;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: green;
+}

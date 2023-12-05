@@ -1,0 +1,116 @@
+.frontPage {
+    position: relative;
+    z-index: 10;
+    top: 12vh;
+}
+
+
+/* =============== =============== SlideArea =============== =============== */
+
+.slideArea {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.boxArea {
+    height: auto;
+    width: 100%;
+}
+
+.slideArea .slideAreaTop,
+.boxArea .boxAreaTop {
+    height: 50px;
+    width: 100%;
+    padding: 0 3%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slideArea .slideAreaTop h1,
+.boxArea .boxAreaTop h1 {
+    font-size: 3rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+.slideArea .slideAreaTop .link,
+.boxArea .boxAreaTop .link  {
+    font-size: 2rem;
+    color: black;
+}
+
+.slideArea .slideAreaTop .link:hover,
+.boxArea .boxAreaTop .link:hover {
+    color: blue;
+}
+
+.slideArea .slideAreaBottom {
+    height: auto;
+    width: 100%;
+    padding: 0 3%;
+}
+
+.slick-list {
+    padding: 0 10px;
+}
+
+.slideArea .slideAreaBottom .slick-arrow {
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+}
+
+.slick-prev::before, .slick-next::before {
+    font-size: 45pt;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.slideArea .slideBox {
+    height: auto;
+    width: 250px;
+}
+
+
+
+
+
+
+.boxArea .boxAreaBottom {
+    min-height: auto;
+    max-height: 850px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    gap: 30px;
+    overflow: hidden;
+}
+
+
+.imgArea {
+    height: 100%;
+    width: 100%;
+}
+
+.companyImageLink {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyImage {
+    max-height: 100%;
+    max-width: 100%;
+}
+

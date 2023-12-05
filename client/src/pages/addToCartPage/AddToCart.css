@@ -1,0 +1,163 @@
+.cartImg {
+    height: 6vh;
+    width: 6vh;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartImg img {
+    /* position: absolute;
+    left: 9px; */
+    height: 60%;
+    width: 60%;
+}
+
+.cartImg span {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: gold;
+}
+
+.cartImg:hover {
+    background-color: orange;
+}
+
+.openCart {
+    position: fixed;
+    z-index: 100;
+    top: 12vh;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 12vh);
+    background-color: #ffffff;
+}
+
+
+.cartTop {
+    height: 10%;
+    width: 100%;
+    padding: 0 3%;
+}
+
+.cartTop {
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+}
+
+.cartTop img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cartButton {
+    border-top: 1px solid black;
+}
+
+.openCart .cartList {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.cart {
+    width: 100%;
+    padding: 0 3%;
+    height: 150px;
+    margin: 15px 0;
+    box-shadow: 0 4px 15px #171616b9;
+}
+
+.leftArea {
+    width: 30%;
+    height: 100%;
+}
+
+.leftArea img {
+    max-width: 50%;
+    max-height: 150px;
+}
+
+.leftArea h1 {
+    font-size: 2.5rem;
+}
+
+.rightArea {
+    width: 70%;
+    height: 100%;
+}
+
+.rightArea .rpoductPrice h3 del {
+    font-size: 1.5rem;
+}
+
+.rightArea h3 {
+    font-size: 2rem;
+}
+
+.rightArea button.increase_value,
+.rightArea button.decrease_value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.rightArea button.increase_value img,
+.rightArea button.decrease_value img {
+    height: 100%;
+    width: 100%;
+}
+
+.rightArea button.deleteChart {
+    background-color: #fff;
+}
+
+.rightArea button.deleteChart img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+.pricelist {
+    width: 100%;
+    padding: 3% 30%;
+    height: auto;
+    margin: 15px 0;
+    box-shadow: 0 4px 15px #171616b9;
+}
+
+.pricelist h2 {
+    font-size:  2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pricelistBuyBtn {
+    margin-top: 10px;
+    font-size: 2.5rem;
+    padding: 10px 25px;
+    background-color: #ff014f;
+    color: black;
+}

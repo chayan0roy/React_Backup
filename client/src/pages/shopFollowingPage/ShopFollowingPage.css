@@ -1,0 +1,43 @@
+.ShopFollowingPage {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 12vh;
+    background: green;
+}
+
+
+.ShopFollowingPageMiddil {
+    height: 300px;
+    width: 100%;
+    background-color: brown;
+}
+
+.ShopFollowingPageBottom {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ShopFollowingPageBottom .ShopFollowingList {
+    height: 200px;
+    width: 100%;
+    padding:  0 5%;
+}
+
+.ShopFollowingList img {
+    max-height: 90%;
+    width: auto;
+    border-radius: 50%;
+}
+
+.ShopFollowingList h1 {
+    font-size: 40px;
+}
+.ShopFollowingList h3 {
+    font-size: 30px;
+}
+.ShopFollowingListBtn  {
+    font-size: 30px;
+}

@@ -1,0 +1,36 @@
+.boxAreaBottom .card {
+    max-height: 385px;
+    width: 300px;
+    margin: 0;
+    border: 2px solid black;
+}
+
+.slideArea .slideBox .card {
+    max-height: 385px;
+    width: 300px;
+    margin: 15px 0;
+    border: 2px solid black;
+}
+
+.card .imgArea {
+    width: 100%;
+    height: 200px;
+}
+
+.card .imgArea img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.card .textArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card .textArea h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
